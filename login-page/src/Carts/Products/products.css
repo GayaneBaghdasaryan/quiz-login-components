@@ -1,0 +1,26 @@
+.menu img{
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.category{
+    display: flex;
+    justify-content: center;
+}
+.top-board{
+    width: 100%;
+    background-color: rgba(54, 134, 120, 0.575);
+    align-items: flex-start;
+    display: flex;
+}
+.header{
+   margin-left: 100px;
+}
+
