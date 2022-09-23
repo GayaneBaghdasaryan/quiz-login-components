@@ -1,15 +1,10 @@
-import { useNavigate } from "react-router-dom"
+import './about.css'
 
 export const About = () => {
-    const nav = useNavigate()
-    const Back =()=> {
-     nav('/carts')
-    }
     return(
-        <>
-        <h1>About</h1>
-        <button onClick={Back}>Back to manue</button>        
-        </>
+        <div className='about'>
+        <h1>About</h1>      
+        </div>
  
     )
 }

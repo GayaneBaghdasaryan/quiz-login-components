@@ -8,7 +8,7 @@ export const Authorization = ({children}) => {
     const context = useContext(LoginContext)
     const location = useLocation()
     if(!context.value){
-       return <Navigate to="/" state={{from: location}}/>
+       return <Navigate to="/products" state={{from: location}}/>
     }
     return children
 }

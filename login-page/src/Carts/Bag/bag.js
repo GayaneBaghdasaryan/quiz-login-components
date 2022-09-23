@@ -1,15 +1,11 @@
-import { useNavigate } from "react-router-dom"
+import './bag.css'
 
 export const Bag = () => {
-    const nav = useNavigate()
-    const Back =()=> {
-     nav('/carts')
-    }
     return(
-        <>
+        <div className='bag'>
         <h1>Bag</h1>
-        <button onClick={Back}>Back to manue</button>        
-        </>
+        
+        </div>
 
     )
 }

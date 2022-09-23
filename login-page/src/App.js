@@ -12,17 +12,18 @@ function App() {
   return (
     <LoginProvider>
     <Routes>
-     <Route path="/" element={<Login/>}/>
+     <Route path="/" element={<Carts/>}>
      <Route index element={<Login/>}/>
-     <Route path='/carts' element={
+     <Route path='/' element={
       <Authorization>
-        <Carts/>
+        <Products/>
       </Authorization>
      }/>
      <Route path='/about' element={<About/>}/>
      <Route path='/bag' element={<Bag/>}/>
      <Route path='/products' element={<Products/>}/>
      <Route path='/products/:id' element={<Items/>}/>
+     </Route>
     </Routes>
     </LoginProvider>
   );

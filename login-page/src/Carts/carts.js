@@ -7,9 +7,9 @@ const Carts = () => {
         <div className='container'>
             <div className="wrapper">
                 <header>
+                    <NavLink className='link' to='/'>Login</NavLink>
                     <NavLink className='link' to='/about'>About</NavLink>
                     <NavLink className='link' to='/bag'>Bag</NavLink>
-                    <NavLink className='link' to='/products'>Products</NavLink>    
                 </header>
             </div>
             <Outlet/>
